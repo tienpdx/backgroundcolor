@@ -1,0 +1,25 @@
+.frog-showing {
+  display: none;
+}
+
+p {
+  cursor: pointer;
+  color: red;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+.clickable {
+  cursor: pointer;
+  color: red;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.facts-showing {
+  display: none;
+}
