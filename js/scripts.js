@@ -1,15 +1,16 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $(".frog-showing").fadeToggle();
-    $(".frog-hidden").fadeToggle();
-
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
   });
-});
 
-$(document).ready(function() {
-  $("h1").click(function() {
-    $(".facts-hidden").show();
-    $(".facts-showing").fadeToggle();
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
 
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
   });
 });

@@ -1,25 +1,11 @@
-.frog-showing {
-  display: none;
+.green-background {
+  background-color: green;
 }
 
-p {
-  cursor: pointer;
-  color: red;
+.yellow-background {
+  background-color: yellow;
 }
 
-p:hover {
-  text-decoration: underline;
-}
-
-.clickable {
-  cursor: pointer;
-  color: red;
-}
-
-.clickable:hover {
-  text-decoration: underline;
-}
-
-.facts-showing {
-  display: none;
+.red-background {
+  background-color: red;
 }
